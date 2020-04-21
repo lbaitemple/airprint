@@ -10,3 +10,7 @@ After that, you need to append the following file in the crontab file
 ```
 */2 * * * * /home/pi/app.sh >/dev/null 2>&1
 ```
+For HP printer, you will need to do the following to install plugin 
+```
+ sudo hp-setup -i
+ ```
