@@ -14,3 +14,4 @@ For HP printer, you will need to do the following to install plugin
 ```
  sudo hp-setup -i
  ```
+Make sure you enable TCP&UDP port 631. Otherwise, airprint will not be able to find the printer.
